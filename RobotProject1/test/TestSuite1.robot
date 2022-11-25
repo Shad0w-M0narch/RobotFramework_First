@@ -22,28 +22,28 @@ MyThirdTest
     Log    THIRD
     Remove Tags    Debut
 
-# FirstSeleniumTest
-    # Open Browser    https://google.com    chrome
-    # Set Browser Implicit Wait    5
-    # Input Text    name=q    Taylor Swift
-    # Press Keys    name=q    ENTER
-    # #Click Button    name=btnK    
-    # Sleep    2
-    # Log    Test Completed... 
-    # Close Browser
+FirstSeleniumTest
+    Open Browser    https://google.com    chrome
+    Set Browser Implicit Wait    5
+    Input Text    name=q    Taylor Swift
+    Press Keys    name=q    ENTER
+    #Click Button    name=btnK    
+    Sleep    2
+    Log    Test Completed... 
+    Close Browser
  
-# SampleLoginTest
-    # [Documentation]    This is a sample login test
-    # Open Browser    ${URL}        chrome
-    # Set Browser Implicit Wait    7
-    # LoginKW
-    # Click Image    profile picture
-    # Sleep    2
-    # Click Link    Logout
-    # Sleep    2
-    # Log    Test Completed... 
-    # Log    %{username} %{os}
-    # Close Browser
+SampleLoginTest
+    [Documentation]    This is a sample login test
+    Open Browser    ${URL}        chrome
+    Set Browser Implicit Wait    7
+    LoginKW
+    Click Image    profile picture
+    Sleep    2
+    Click Link    Logout
+    Sleep    2
+    Log    Test Completed... 
+    Log    %{username} %{os}
+    Close Browser
   
   
 *** Variables ***
